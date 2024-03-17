@@ -4,6 +4,7 @@ import webimg from '../../../../../public/web.png';
 
 const Overview = () => {
     return (
+        <>
     <section className='overview-section mt-2'>
         <div className='mt-20'>
             <h1 className='text-[54px] text-violet'>
@@ -17,6 +18,8 @@ const Overview = () => {
             <img src={webimg} alt="" srcset="" />
         </div>
     </section>
+    <div className="divider divider-error"></div>
+    </>
     );
 };
 
