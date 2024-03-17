@@ -1,0 +1,11 @@
+.overview-section{
+    display: flex;
+}
+
+.btn-resume{
+   color: white;
+   font-weight: 500;
+   background-color:rgb(139 92 246);
+   padding: 10px 8px 8px 10px;
+   border-radius: 10px;
+}
