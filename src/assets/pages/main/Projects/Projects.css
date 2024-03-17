@@ -1,0 +1,15 @@
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: whitesmoke;
+    
+    justify-content: end;
+}
+.projects img{
+    object-fit: cover;
+    transform: translateY(0);
+    transform: translateY(0);
+    transition: 3s ease-out;
+    width: 200px;
+    height: 1000px;
+}
