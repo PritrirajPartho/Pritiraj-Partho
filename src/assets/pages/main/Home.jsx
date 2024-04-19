@@ -3,6 +3,7 @@ import Overview from './Overview/Overview';
 import '../main/Home.css';
 import About from './About/About';
 import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
 
 const Home = () => {
     return (
@@ -10,9 +11,8 @@ const Home = () => {
             <Overview></Overview>
             <About></About>
             <Projects></Projects>
-            {/* <About></About>
-            <Contact></Contact> */}
-            hello home
+            {/* <About></About> */}
+            <Contact></Contact>
         </div>
     );
 };
