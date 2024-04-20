@@ -1,6 +1,9 @@
 import React from 'react';
 import '../Overview/Overview.css';
 import webimg from '../../../../../public/web.png';
+import Typewriter from 'typewriter-effect';
+
+
 
 const Overview = () => {
     return (
@@ -11,11 +14,19 @@ const Overview = () => {
             Hello!, I'm<br></br>
             Pritiraj Partho
             </h1>
-            <h1 className='text-[44px] mt-4 mb-6 text-sky'>I am Web Developer</h1>
+            <h1 id='app' className='text-[44px] mt-4 mb-6 text-sky'>
+                <Typewriter
+                    options={{
+                        strings: ['Full Stack Developer', 'Web developer', 'Frontend developer', 'Javascript developer'],
+                        autoStart: true,
+                        loop: true,
+                    }}
+                 />
+            </h1>
             <button className='text-xl btn-resume'>Download Resume</button>
         </div>
-        <div className='ms-56 web'>
-            <img src={webimg} alt="" srcset="" />
+        <div className='ms-80 web'>
+            <img className='static' src={webimg} alt="" srcset="" />
         </div>
     </section>
     <div className="divider divider-error"></div>
