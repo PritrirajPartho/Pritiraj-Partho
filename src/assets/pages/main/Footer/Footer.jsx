@@ -3,15 +3,16 @@ import facebook from '../../../../../public/facebook.png';
 import linkedin from '../../../../../public/linkedin.png';
 import whatsapp from '../../../../../public/whatsapp.png';
 import twitter from '../../../../../public/twitter.png';
+import github from '../../../../../public/github-logo.png';
 
 const Footer = () => {
     return (
     <section className='pt-8 pb-8 bg-violet mt-14'>
         <div className='flex justify-center mb-8'>
-           <a href="http://" target="_blank" rel="noopener noreferrer">
+           <a href="https://www.linkedin.com/in/professional-web-developer-pritiraj-partho/" target="_blank" rel="noopener noreferrer">
                <img  className='w-[35px] mr-2' src={linkedin} alt="" srcset="" />
            </a>
-           <a href="http://" target="_blank" rel="noopener noreferrer">
+           <a href="https://web.facebook.com/pd.partho.5" target="_blank" rel="noopener noreferrer">
                <img  className='w-[35px] mr-2' src={facebook} alt="" srcset="" />
            </a>
            <a href="http://" target="_blank" rel="noopener noreferrer">
@@ -19,6 +20,9 @@ const Footer = () => {
            </a>
            <a href="http://" target="_blank" rel="noopener noreferrer">
               <img  className='w-[35px]' src={whatsapp} alt="" srcset="" />
+           </a>
+           <a href="https://github.com/PritrirajPartho" target="_blank" rel="noopener noreferrer">
+              <img  className='w-[35px]' src={github} alt="" srcset="" />
            </a>
         </div>
         <div>

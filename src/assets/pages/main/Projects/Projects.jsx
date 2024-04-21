@@ -1,8 +1,13 @@
 import React from 'react';
 import '../Projects/Projects.css';
-import project1 from '../../../../../public/summer-camp-school.png'
-import project2 from '../../../../../public/web-developers.png'
-import project3 from '../../../../../public/startling.png'
+import project1 from '../../../../../public/summer-camp-school.png';
+import project2 from '../../../../../public/web-developers.png';
+import project3 from '../../../../../public/startling.png';
+
+<script>
+   AOS.init();
+</script>
+
 
 const Projects = () => {
     return (
@@ -12,7 +17,7 @@ const Projects = () => {
             {/*projets one sparkle sports academy*/}
             <div>
                 <div>
-                     <img src={project1} alt="" />
+                     <img data-aos="fade-up" data-aos-duration="3000"    src={project1} alt="" />
                 </div>
                 <div>
                     <h1>Sparkle Sports Academy</h1>

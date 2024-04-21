@@ -1,11 +1,20 @@
 import React from 'react';
+import useDownloader from 'react-use-downloader';
 import '../Overview/Overview.css';
 import webimg from '../../../../../public/web.png';
 import Typewriter from 'typewriter-effect';
+import pdf from '../../../../../public/Pritiraj-Partho-Full-Stack-Developer-Resume.pdf';
+
 
 
 
 const Overview = () => {
+
+    const {download} =
+    useDownloader();
+    const fileUrl = pdf;
+    const filename = 'Pritiraj-Partho-full-stack-developer-resume.pdf';
+
     return (
         <>
     <section className='overview-section mt-2'>
@@ -23,7 +32,7 @@ const Overview = () => {
                     }}
                  />
             </h1>
-            <button className='text-xl btn-resume'>Download Resume</button>
+            <button onClick={() => download(fileUrl, filename)}   className='text-xl btn-resume'>Download Resume</button>
         </div>
         <div className='ms-80 web'>
             <img className='static' src={webimg} alt="" srcset="" />
