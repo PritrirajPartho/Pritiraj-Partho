@@ -1,12 +1,13 @@
 import React from 'react';
 import partho from '../../../../../public/partho.jpeg';
+import '../About/About.css';
 
 const About = () => {
     return (
-     <> 
-     <h1 className='mt-2 text-center text-3xl text-violet'>--About me--</h1>
+     <section className='about'> 
+     <h1 className='mt-14 text-center text-4xl text-violet'>About me</h1>
         <section className='flex mt-16'>
-            <div className='mt-16'>
+            <div className='mt-6'>
                 <p className='text-2xl mr-10 text-white'>
                 Hello! I am Pritiraj Partho from Bangladesh. Currently I'm <br></br>
                 a student of BBA(honors-2nd year) Mangement Department.<br></br>
@@ -18,8 +19,7 @@ const About = () => {
                 <img className='w-[1500px] rounded-md' src={partho} alt="" />
             </div>
         </section>
-        <div className="divider divider-error"></div>
-     </>
+     </section>
     );
 };
 

@@ -35,7 +35,7 @@ const Contact = () => {
     return (
         <section className="pt-10 px-3 text-white bg-slate-900" id="contact">
              <div>
-                 <h1 className='mt-2 text-center text-3xl text-violet'>--Contact me--</h1>
+                 <h1 className='mt-14 text-center text-3xl text-violet'>Contact with me</h1>
              </div>
             <div className="text-center mt-10">
                 <div className=' flex md:flex-row flex-col gap-6 max-w-5xl bg-gray-800 py-10 md:p-6 p-2 rounded-lg mx-auto'>

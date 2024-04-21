@@ -9,6 +9,9 @@ import "./index.css";
 import Root from './assets/layout/Root';
 import Errorpage from './assets/pages/Errorpage/Errorpage';
 import Home from './assets/pages/main/Home';
+import About from './assets/pages/main/About/About';
+import Projects from './assets/pages/main/Projects/Projects';
+import Contact from './assets/pages/main/Contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -20,18 +23,18 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
-      // {
-      //   path: "/blog",
-      //   element: <Blog></Blog>,
-      // },
-      // {
-      //   path: "/registration",
-      //   element: <Registration></Registration>,
-      // },
-      // {
-      //   path: "/login",
-      //   element: <Login></Login>,
-      // }
+      {
+        path: "/about",
+        element: <About></About>,
+      },
+      {
+        path: "/projects",
+        element: <Projects></Projects>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
+      }
     ],
   },
 ]);

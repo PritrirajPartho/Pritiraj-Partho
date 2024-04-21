@@ -1,5 +1,10 @@
 .overview-section{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    border-bottom: 2px solid red;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .btn-resume{

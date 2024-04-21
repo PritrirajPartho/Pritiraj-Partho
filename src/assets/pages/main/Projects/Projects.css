@@ -1,15 +1,53 @@
 .projects{
+    margin-right: 40px;
+    margin-left: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     color: whitesmoke;
-    
-    justify-content: end;
+    grid-gap: 20px;
 }
-.projects img{
-    object-fit: cover;
-    transform: translateY(0);
-    transform: translateY(0);
-    transition: 3s ease-out;
-    width: 200px;
-    height: 1000px;
+.project{
+   position: relative;
+   /* background-color: azure; */
+   border: 2px solid red;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.box{
+    border-radius: 5px;
+    width: 350px;
+    height: 300px;
+    background-position: top;
+    transition: ease-in-out 5s;
+}
+.box1{
+    background: url('../../../../../public/summer-camp-school.png') ;
+    background-size: cover;
+}
+.box2{
+    background: url('../../../../../public/web-developers.png') ;
+    background-size: cover;
+}
+.box3{
+    background: url('../../../../../public/startling.png') ;
+    background-size: cover;
+}
+.box:hover{
+    background-position: bottom;
+}
+
+/* now start buttons positioning and style */
+.buttons{
+ display: flex;
+ justify-content: space-between; 
+ position: absolute;
+ bottom: 0;
+ margin-bottom: 20px;
+}
+.buttons .btn a{
+    text-align:center ;
 }

@@ -16,7 +16,7 @@ const Overview = () => {
     const filename = 'Pritiraj-Partho-full-stack-developer-resume.pdf';
 
     return (
-        <>
+    <section>
     <section className='overview-section mt-2'>
         <div className='mt-20'>
             <h1 className='text-[54px] text-violet'>
@@ -34,12 +34,11 @@ const Overview = () => {
             </h1>
             <button onClick={() => download(fileUrl, filename)}   className='text-xl btn-resume'>Download Resume</button>
         </div>
-        <div className='ms-80 web'>
+        <div className='web'>
             <img className='static' src={webimg} alt="" srcset="" />
         </div>
+      </section>
     </section>
-    <div className="divider divider-error"></div>
-    </>
     );
 };
 
