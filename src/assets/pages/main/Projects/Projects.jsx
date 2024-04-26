@@ -1,8 +1,8 @@
 import React from 'react';
 import '../Projects/Projects.css';
-import project1 from '../../../../../public/summer-camp-school.png';
-import project2 from '../../../../../public/web-developers.png';
-import project3 from '../../../../../public/job-assistant-web.png';
+// import project1 from '../../../../../public/summer-camp-school.png';
+// import project2 from '../../../../../public/web-developers.png';
+// import project3 from '../../../../../public/job-assistant-web.png';
 
 {/* <script>
    AOS.init();
@@ -63,10 +63,19 @@ const Projects = () => {
                 <div className='box box3'></div>
                 <div className='mt-8 ps-7 pe-7'>
                     <h1 className='text-2xl text-sky mb-2'>job-assistant website</h1>
-                    <p className='mb-2'>It is generall html5,css3 and bootstrap based website making for project practice. pixel perfect website making task from my training company.</p>
+                    <p className='mb-12'>It is Frontend React.js web app or bootstrap based website making for project practice. pixel perfect website making task from my training company. Here is I used react dependencies react-recharts. </p>
+                    <div className='technologies'>
+                        <span>Javascript</span>
+                        <span>Html5</span>
+                        <span>CSS3</span>
+                        <span>React.js</span>
+                        <span>Bootstrap.css</span>
+                        <span>rechart</span>
+                        <span>react-router</span>
+                    </div>
                     <div className='buttons'>
                         <button className="bg-violet ps-4 pe-4 rounded-md mr-8"><a href="https://job-assistant-web.netlify.app/" target='_blank'>Live site</a></button>
-                        <button className="bg-violet ps-4 pe-4 rounded-md mr-8"><a href="https://startling-platypus-c6f46f.netlify.app/" target='_blank'>Github repo</a></button>
+                        <button className="bg-violet ps-4 pe-4 rounded-md mr-8"><a href="https://github.com/PritrirajPartho/job-assistant-client" target='_blank'>Github repo</a></button>
                     </div>
                 </div>
             </div>
