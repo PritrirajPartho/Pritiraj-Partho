@@ -33,7 +33,7 @@
     background-size: cover;
 }
 .box3{
-    background: url('../../../../../public/startling.png') ;
+    background: url('../../../../../public/job-assistant-web.png') ;
     background-size: cover;
 }
 .box:hover{
@@ -50,4 +50,18 @@
 }
 .buttons .btn a{
     text-align:center ;
+}
+.technologies{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+.technologies  span{
+    text-align: center;
+    font-weight: 500;
+    background-color: rgb(26, 118, 231);
+    border: 2px solid white;
+    border-radius: 5px;
 }

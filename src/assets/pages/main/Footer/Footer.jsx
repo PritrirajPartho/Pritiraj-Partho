@@ -15,7 +15,7 @@ const Footer = () => {
            <a href="https://web.facebook.com/pd.partho.5" target="_blank" rel="noopener noreferrer">
                <img  className='w-[35px] mr-6' src={facebook} alt="" srcset="" />
            </a>
-           <a href="http://" target="_blank" rel="noopener noreferrer">
+           <a href="https://twitter.com/PritirajPartho" target="_blank" rel="noopener noreferrer">
               <img  className='w-[35px] mr-6' src={twitter} alt="" srcset="" />
            </a>
            <a href="http://" target="_blank" rel="noopener noreferrer">
