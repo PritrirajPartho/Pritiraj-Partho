@@ -1,5 +1,5 @@
 import React from 'react';
-import partho from '../../../../../public/partho.jpeg';
+import partho from '../../../../public/partho.jpeg';
 import '../About/About.css';
 
 const About = () => {

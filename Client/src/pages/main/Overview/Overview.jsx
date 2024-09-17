@@ -1,9 +1,9 @@
 import React from 'react';
 import useDownloader from 'react-use-downloader';
-import '../Overview/Overview.css';
-import webimg from '../../../../../public/web.png';
+import './Overview.css';
+import webimg from '../../../../public/web.png';
 import Typewriter from 'typewriter-effect';
-import pdf from '../../../../../public/Pritiraj-Partho-Full-Stack-Developer-Resume.pdf';
+import pdf from '../../../../public/Pritiraj-Partho-Full-Stack-Developer-Resume.pdf';
 
 
 

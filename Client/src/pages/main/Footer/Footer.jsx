@@ -1,9 +1,9 @@
 import React from 'react';
-import facebook from '../../../../../public/facebook.png';
-import linkedin from '../../../../../public/linkedin.png';
-import whatsapp from '../../../../../public/whatsapp.png';
-import twitter from '../../../../../public/twitter.png';
-import github from '../../../../../public/github-logo.png';
+import facebook from '../../../../public/facebook.png';
+import linkedin from '../../../../public/linkedin.png';
+import whatsapp from '../../../../public/whatsapp.png';
+import twitter from '../../../../public/twitter.png';
+import github from '../../../../public/github-logo.png';
 
 const Footer = () => {
     return (

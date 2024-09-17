@@ -20,22 +20,28 @@
 .box{
     border-radius: 5px;
     width: 350px;
-    height: 300px;
+    height: 250px;
     background-position: top;
     transition: ease-in-out 5s;
 }
+
 .box1{
-    background: url('../../../../../public/summer-camp-school.png') ;
+    background: url('https://i.ibb.co.com/BGPKTY3/sparkle-full.jpg') ;
     background-size: cover;
 }
 .box2{
-    background: url('../../../../../public/web-developers.png') ;
+    background: url('https://i.ibb.co.com/NrGRCwx/panda-dish-full-site-webp.jpg') ;
     background-size: cover;
 }
 .box3{
-    background: url('../../../../../public/job-assistant-web.png') ;
+    background: url('https://i.ibb.co.com/ZTd8kTH/job-assistant-web.png') ;
     background-size: cover;
 }
+.box4{
+    background: url('https://i.ibb.co.com/5K4Dqy3/web-developers.png') ;
+    background-size: cover;
+}
+
 .box:hover{
     background-position: bottom;
 }
